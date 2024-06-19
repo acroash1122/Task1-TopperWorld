@@ -11,6 +11,14 @@ document.getElementById('signupForm').addEventListener('submit', function(event)
         return;
     }
 
+    // Save user info in localStorage
+    var user = {
+        name: name,
+        email: email,
+        password: password
+    };
+
+    localStorage.setItem('user', JSON.stringify(user));
     alert('Signup successful! Please log in.');
 
     // Redirect to login page
