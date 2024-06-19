@@ -11,7 +11,7 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
         alert('Login successful! Welcome back.');
 
         // Redirect to home page
-        window.location.href = 'index.html';
+        window.location.href = 'Task1.html'; // Adjust this to match your home page URL
     } else {
         alert('Invalid email or password');
     }
