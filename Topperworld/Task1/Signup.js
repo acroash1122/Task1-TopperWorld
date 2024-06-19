@@ -11,8 +11,8 @@ document.getElementById('signupForm').addEventListener('submit', function(event)
         return;
     }
 
-    alert('Signup successful! Welcome, ' + name);
+    alert('Signup successful! Please log in.');
 
-    // Redirect to welcome page or dashboard
-    window.location.href = 'welcome.html';
+    // Redirect to login page
+    window.location.href = 'login.html';
 });
