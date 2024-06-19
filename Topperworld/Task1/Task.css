@@ -190,3 +190,63 @@ nav ul.responsive li a {
         display: flex;
     }
 }
+
+/* Base styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header .logo {
+    max-width: 150px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#menu-toggle {
+    display: none;
+}
+
+/* Responsive styles */
+@media (max-width: 600px) {
+    nav ul {
+        display: none;
+        flex-direction: column;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    #menu-toggle {
+        display: inline-block;
+        background-color: #007BFF;
+        color: white;
+        padding: 10px;
+        border: none;
+        cursor: pointer;
+    }
+}
