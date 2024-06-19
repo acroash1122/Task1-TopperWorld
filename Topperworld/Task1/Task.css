@@ -1,0 +1,192 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    position: relative;
+}
+
+header .logo {
+    max-width: 150px;
+}
+
+#menu-icon {
+    display: none; /* Hide by default on larger screens */
+    font-size: 30px;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f4f4f4;
+}
+
+.hero h1 {
+    margin-bottom: 20px;
+}
+
+.hero p {
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.cta-button:hover {
+    background-color: #0056b3;
+}
+
+.products, .testimonials, .contact, footer {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.product-category {
+    margin-bottom: 40px;
+}
+
+.product-category h3 {
+    margin-bottom: 20px;
+}
+
+.product {
+    display: inline-block;
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.product img {
+    max-width: 100%;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.product h4 {
+    margin: 10px 0;
+    font-size: 1.1em;
+}
+
+.product p {
+    font-size: 1.2em;
+    color: #007BFF;
+}
+
+.contact h2 {
+    margin-bottom: 20px;
+}
+
+.contact p {
+    margin: 10px 0;
+}
+
+.social-media {
+    margin-top: 20px;
+}
+
+.social-media a {
+    color: #007BFF;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.social-media a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.product img,
+.testimonial img {
+    max-width: 100%;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.logo {
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+/* Responsive Navigation */
+nav ul.responsive {
+    display: flex;
+    flex-direction: column;
+    background-color: #333;
+    position: absolute;
+    top: 60px; /* Adjust as needed */
+    left: 0;
+    right: 0;
+    z-index: 999;
+}
+
+nav ul.responsive li {
+    text-align: center;
+    margin: 10px 0;
+}
+
+nav ul.responsive li a {
+    color: #fff;
+    padding: 10px 20px;
+    display: block;
+}
+
+/* Hamburger Menu Icon */
+@media screen and (max-width: 768px) {
+    nav ul {
+        display: none;
+    }
+
+    #menu-icon {
+        display: block;
+    }
+
+    nav ul.responsive {
+        display: flex;
+    }
+}

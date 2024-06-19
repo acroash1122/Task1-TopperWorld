@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ash - Exclusive Offer</title>
+    <link rel="stylesheet" href="Task.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="logo.jfif" alt="Ash Logo" class="logo">
+            <div id="menu-icon">&#9776;</div>
+            <nav>
+                <ul id="nav-menu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="Login.html">Login</a></li>
+                    <li><a href="Signup.html">Sign Up</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="hero" id="home">
+        <div class="container">
+            <h1>Welcome to Ash</h1>
+            <p>Your one-stop shop for all your needs.</p>
+            <a href="#products" class="cta-button">Shop Now</a>
+        </div>
+    </section>
+    <section class="products" id="products">
+        <div class="container">
+            <h2>Featured Products</h2>
+            <div class="product-category">
+                <h3>Clothes</h3>
+                <div class="product">
+                    <img src="isolated-regular-plain-black-back-t-shirt-free-png.webp" alt="T-Shirt">
+                    <h4>Stylish T-Shirt</h4>
+                    <p>$19.99</p>
+                </div>
+                <div class="product">
+                    <img src="OIP.jpg" alt="Jeans">
+                    <h4>Blue Jeans</h4>
+                    <p>$49.99</p>
+                </div>
+            </div>
+            <div class="product-category">
+                <h3>Electronics</h3>
+                <div class="product">
+                    <img src="smartphone.jfif" alt="Smartphone">
+                    <h4>Latest Smartphone</h4>
+                    <p>$699.99</p>
+                </div>
+                <div class="product">
+                    <img src="laptop.jfif" alt="Laptop">
+                    <h4>High-Performance Laptop</h4>
+                    <p>$1299.99</p>
+                </div>
+            </div>
+            <a href="product-page.html" class="cta-button">View All Products</a>
+        </div>
+    </section>
+    <section class="testimonials" id="testimonials">
+        <div class="container">
+            <h2>What Our Customers Say</h2>
+            <div class="testimonial">
+                <img src="ian-dooley-d1UPkiFd04A-unsplash.jpg" alt="Customer 1">
+                <blockquote>
+                    "I absolutely love the products from Ash! The quality is top-notch and the customer service is outstanding."
+                </blockquote>
+                <cite><b>John Doe</b></cite>
+                <br>
+            </div>
+            <div class="testimonial">
+                <br>
+                <img src="R.jfif" alt="Customer 2">
+                <blockquote>
+                    "Shopping at Ash has been a delightful experience. I found exactly what I needed, and the delivery was super fast!"
+                </blockquote>
+                <cite><b>Jane Smith</b></cite>
+                <br>
+            </div>
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p><strong>Address:</strong> Shahdra Lahore, Pakistan</p>
+            <p><strong>Phone:</strong> +923100043300</p>
+            <p><strong>Email:</strong> muhammadahsanshahid005@gmail.com</p>
+            <div class="social-media">
+                <a href="https://www.facebook.com/muhammadahsan.shahid.1/" target="_blank">Facebook</a> |
+                <a href="https://www.threads.net/@ahsanshahid22?xmt=AQGzUo_TcU7wu-nneNFHvbqF-HTuYUUfjV-W840Y1QtlDsQ" target="_blank">Threads</a> |
+                <a href="https://www.instagram.com/ahsanshahid22/" target="_blank">Instagram</a>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Ash. All rights reserved.</p>
+        </div>
+    </footer>
+    <script>
+        // JavaScript for responsive navigation menu
+        const menuIcon = document.querySelector('#menu-icon');
+        const navMenu = document.querySelector('#nav-menu');
+
+        // Toggle the "responsive" class when the menu icon is clicked
+        menuIcon.addEventListener('click', () => {
+            navMenu.classList.toggle('responsive');
+        });
+    </script>
+</body>
+</html>
